@@ -33,6 +33,7 @@ for i in list1:
 if len(list3) == 0:
     print("Повторяющихся чисел нет") 
 else:
+    list3.sort()
     print("Результат")
     print(*list3, sep='  ')  
    

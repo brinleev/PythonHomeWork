@@ -18,9 +18,8 @@
 
 def arithmetic_progression(a1,d,n):
     progression = [ (a1 + (i-1) * d) for i in range(1,n+1) ]
-    # for i in range(1,n+1):
-    #     progression.append(a1 + (i-1) * d)
     return progression
+
 print("Введите аргументы прогрессии через пробел: ")
 print("a1 - первый элемент прогрессии")
 print("d - шаг прогрессии")

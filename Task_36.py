@@ -40,7 +40,7 @@
 def print_operation_table(operation, num_rows=6, num_columns=6):
      
     for n in range(num_columns + 1):
-        print('%3d'% n,end=' ')
+        print('%3d'%n,end=' ')       
     print()    
     for n in range( num_columns + 1):
         print('----',end='')  
